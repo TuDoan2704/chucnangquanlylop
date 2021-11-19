@@ -41,7 +41,7 @@ public class LopHocController extends HttpServlet {
 		Connection conn = DBConnection.CreateConnection();
 		List<LopHoc> list = DAOLopHoc.DisplayQuestion(conn);
 		request.setAttribute("list", list);
-		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view/Home.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view/BuoiHoc.jsp");
 		rd.forward(request, response);
 	}
 

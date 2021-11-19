@@ -18,7 +18,7 @@
         <tr>
         
             <td>${l.id}</td>
-            <td>${l.tenBuoiHoc}</td>
+            <td>${l.tenlop}</td>
             
         </tr>
         </c:forEach>

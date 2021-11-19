@@ -8,18 +8,17 @@
 </head>
 <body>
 	<form action="BuoiHocController" method = "POST">
-	aaaaa
 	<table>
 		 <tr>
             <th>ID</th>
-            <th>Ten Lop</th>
+            <th>Ten Buoi Hoc</th>
             
         </tr>
         <c:forEach items = "${list}" var = "l">
         <tr>
         
             <td>${l.id}</td>
-            <td>${l.tenBuoiHoc}</td>
+            <td>${l.tenbuoihoc}</td>
             
         </tr>
         </c:forEach>
